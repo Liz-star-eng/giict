@@ -1,0 +1,267 @@
+<!-- MSME-CLONE PROTOTYPE -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GICS</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="listing-advert">
+   <!--  TopNav -->
+   <div class="row4">
+      <div class="col-sm-2">
+        <a href="index.html"
+          ><h4 class="title"><i>GirlsInICT</i><i class="fa fa-home"></i></h4
+        ></a>
+      </div>
+      <div class="col-sm-6">
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="" class="dropbtn"
+                ><i class="fa fa-folder-open-o"></i> Directory
+                <i class="fa fa-chevron-down"></i
+              ></a>
+              <div class="dropdown-content">
+                <a id="a" href="advert detils.html">Mentors</a>
+                <a id="a" href="listings.htm">Students</a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              <a href="forum.html" class="dropbtn"
+                ><i class="fa fa-comment-o"></i> Forum
+                <i class="fa fa-chevron-down"></i
+              ></a>
+              <div class="dropdown-content">
+                <a id="a" href="">Industry</a>
+                <a id="a" href="advert detils.html">Profession</a>
+                <a id="a" href="advert detils.html">Schools</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="market.html" class="dropbtn"
+                ><i class="fa fa-shopping-basket"></i> Academy
+                <i class="fa fa-chevron-down"></i
+              ></a>
+              <div class="dropdown-content">
+                <a id="a" href="advert detils.html">CyberSecurity</a>
+                <a id="a" href="#">Programming</a>
+                <a id="a" href="#">Trends in Tech</a>
+                <a id="a" href="advert detils.html">Basic computing </a>
+                <a id="a" href="#">IoT</a>
+                <a id="a" href="#">Robotics</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="" class="dropbtn"
+                ><i class="fa fa-folder-o"></i> Events
+                <i class="fa fa-chevron-down"></i
+              ></a>
+              <div class="dropdown-content">
+                <a id="a" href="upcomingEvent.html">Upcoming</a>
+                <a id="a" href="news.html">Past</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="resource.html" class="dropbtn"
+                ><i class="fa fa-folder-o"></i> Information Hub
+                <i class="fa fa-chevron-down"></i
+              ></a>
+              <div class="dropdown-content">
+                <a id="a" href="MoCD.html">MoCD's Corner</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-sm-4 search">
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="What's on your mind?"
+              name="search"
+            />
+          </div>
+        </form>
+        <div class="search-icon">
+          <i class="fa fa-search"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- left side bar -->
+    <div class="sidebar">
+      <div class="leftbar">
+        <a href="#"
+          >Basic High School<i
+            class="fa fa-angle-right"
+            style="font-size: 24px; margin-left: 20px"
+          ></i>
+        </a>
+        <a href="#"
+          >Tertiary<i
+            class="fa fa-angle-right"
+            style="font-size: 24px; margin-left: 90px"
+          ></i
+        ></a>
+        <a href="#"
+          >Start Up<i
+            class="fa fa-angle-right"
+            style="font-size: 24px; margin-left: 85px"
+          ></i
+        ></a>
+        <br />
+        <h4><i class="fa fa-user"></i> About Us</h4>
+        <a class="text" style="color: white;"
+          ><i class="fa fa-sign-in" aria-hidden="true"></i>
+            Login
+          </a
+        >
+      </div>
+    </div>
+    <!-- collapsible sidebar -->
+
+     <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <h4 style="text-align: center;">Featured Articles</h4><hr>
+      <a href="#"><img src="images/sidebar.jpg" alt="">basic customer needs</a>
+      <a href="#"><img src="images/sidebar1.jpg" alt="">Technology to Build Capacity and Meet the Needs of MSMEs</a>
+      <a href="#"><img src="images/sidebar2.png" alt="">Business continuity plan</a>
+      <a href="#"><img src="images/sidebar3.jpg" alt="">Education in Entrepreneurship</a>
+       <a href="#"><img src="images/sidebar4.jpg" alt="">How to select the right investors</a>
+    </div>
+
+    <div class="main-body" id="main-body">
+         <span class="right-sidebar" id="span" onclick="openNav()"
+      ><i>show Right Sidebar<<<</i></span
+    >
+
+          <!-- breadcrumbs -->
+          <div class="breadcrumbs">
+                <ul class="breadcrumb">
+                    <li><a class="" href="#">Articles </a></li>&raquo;
+                    <li><a class=""> Read Article</a></li>
+                </ul>
+            <!-- <span class="right-sidebar" onclick="openNav()"
+            ><i>show Right Sidebar <i class="fa fa-angle-right" style="font-size:24px;"><i class="fa fa-angle-right" style="font-size:24px;"></i></i></span> -->
+          </div>
+            <!-- Header -->
+              <div class="header">
+                  <div class="left">
+                      <h4 class="heading"></h4>
+                        <hr />
+                  <div class="published"> Published On: March 30, 2022</div>
+                    <div class="author">Author: </div>
+                  </div>
+                  <div class="right">
+                      <img src="images/sustainable-development-strategy.jpg">
+                  </div>
+
+              </div>
+
+        <!-- Content -->
+            <div class="section content">
+                <div class="listing articles main">
+                    <p>A business environment encompasses all the internal and external factors that influence a business.
+                    <p>It is the sum of all external and internal factors that influence a business.</p>
+                    <p>You should keep in mind that external factors and internal factors can influence each other and work together to affect a business. Internal and external influences vary based on the size, type, and status of the company.</p>
+                    <p class="topic">Internal Environmental Factors</p>
+                    <p>
+                        The term "internal factors" refers to anything that is within the organisation and within its control, whether tangible or intangible. These factors after being figured out are grouped into the strengths and weaknesses of the company. If one element brings positive effects to the company, it is considered a strength. On the other hand, if a factor prevents the development of the company, it is a weakness. There are numerous criteria that must be considered within the company.
+                    </p>
+                    <p class="list-head">Examples of Internal Factors</p>
+
+                        <li>Plans & Policies</li>
+                        <li>Value Proposition</li>
+                        <li>Human Resource</li>
+                        <li>Financial and Marketing Resources</li>
+                        <li>Financial and Marketing Resources</li>
+                        <li>Corporate Image and brand equity</li>
+                        <li>Plant/Machinery/Equipment (or you can say Physical assets)</li>
+                        <li>Labour Management</li>
+                        <li>Inter-personal Relationship with employees</li>
+                        <li>Internal Technology Resources & Dependencies</li>
+                        <li>Organizational structure or in some cases Code of Conduct</li>
+                        <li>Quality and size of Infrastructure</li>
+                        <li>Task Executions or Operations</li>
+                        <li>Financial Forecast</li>
+                        <li>The founders’ relationship and their decision-making power.</li>
+
+                    <p class="topic">Human resources</p>
+                    <p>Human resources can be a company's greatest treasure in the current global economy, where ideas and digital skills - rather than physical resources - are increasingly where economic value is realized. In general, the employees can be either a strength or weakness of the company depending on the level of practical skills, attitudes toward work, performance and so on. For example, if a business has skilled and motivated workers, they are sure to be the biggest asset of this enterprise.</p>
+                    <p>On the other hand, employees without being carefully trained and having negative attitudes to their tasks will be an enormous challenge for the company to address. In short, the leader should have strategic and effective human management not only for the sake of company benefits but also for the positive development of their employees.</p>
+                    <p class="topic">Capital Resources</p>
+                    <p>Financial capital, in general, refers to the finances required to expand and maintain a business. Business owners take financial capital to invest in not only tangible goods such as factories, machines, tools, and other production equipment to produce an output but also intangible resources such as marketing, employee training, etc.</p>
+                    <p>Once a company has enough budget, it can easily launch its projects, expand its scale and even achieve an impressive result. Without capital resources, no company can survive. For example, Coca-Cola - "the 84th largest economy" - spent 2.9 billion USD on marketing in 2010, which was more than Microsoft and Apple combined. Coca-Cola’s success would not have been guaranteed without a large investment and a consistent financial resource.</p>
+                    <p></p>
+
+                    <p>An organization can also maintain budget stability by utilizing resources such as investment opportunities, finance, and annual income.
+                    <p class="topic">Operational efficiency</p>
+                        <li>Operational efficiency is primarily a metric that measures the efficiency of profit earned as a function of operating costs. The more profitable a company or investment is, the more efficient its operations are. This is because the entity could generate more income or returns for the same or less expensive than an alternative. The concept of operational efficiency encompasses the practice of improving all your processes, which are all your organization’s activities contributing to your ultimate product or service.</li>
+                        <li>Because operational efficiency has a direct impact on a company's market success, a businessman needs to truly know his company’s processes and follow them to discover whether they’re being performed in the correct manner or not. Here are some ideas to help you achieve this level of efficiency:</li>
+                        <li>Investigate the business situation.</li>
+                        <li>Pay attention to the product cost</li>
+
+                    <p>Map process failure and discover failure</p>
+
+                    <p>Use technology for better operation productivity</p>
+                    <p class="topic"> Organizational structure</p>
+                    <p>An organizational structure is a system that outlines how certain activities are directed to achieve the goals of an organization. These activities can include rules, roles, and responsibilities.</p>
+                    <p>The organizational structure determines how information moves across levels inside the enterprise. For example, in a centralized structure, decisions flow from the top down, while in a decentralized structure, decision-making power is distributed across various levels of the organization.</p>
+                    <p>To have a suitable organizational structure requires the owners to consider carefully and set up a system to work smoothly within the company. Whether it is a centralized or decentralized system, the most important thing is how effective the structure is when applied to the company. The heads of departments need to make sure that the information flow is widely conveyed to all customers. Suitable rules and regulations are being applied to ensure the benefits of employees, and the business as well.</p>
+                    <p class="topic">Infrastructure</p>
+                    <p>Generally, infrastructure refers to the basic physical systems of a business, region, or nation.</p>
+                    <p>These systems tend to be capital intensive and high-cost investments, and are vital to a country's economic development and prosperity. When you already have well-trained and motivated workers, an effective operational and organizational system, make sure that the infrastructure of the company is good enough for all your functions. With the modern and high-quality facilities, stable power, internet connection, and so on your company is likely to perform better. In other words, the better your infrastructure, the more opportunities for your company to perform successfully.</p>
+
+                    <p class="REFERENCE">REFERENCE</p>
+                    <p><a href="https://study.com/academy/lesson/internal-and-external-environments-of-business-lesson-quiz.html">https://study.com/academy/lesson/internal-and-external-environments-of-business-lesson-quiz.html</a></p>
+                    <p><a href="https://www.mageplaza.com/blog/what-are-internal-external-environmental-factors-that-affect-business.html">https://www.mageplaza.com/blog/what-are-internal-external-environmental-factors-that-affect-business.html</a></p>
+                    <p><a href="https://smallbusiness.chron.com/internal-external-environmental-factors-affect-business-69474.html">https://smallbusiness.chron.com/internal-external-environmental-factors-affect-business-69474.html</a></p>
+                  </div>
+            </div>
+
+      <!--  Footer -->
+          <div class="footer advert-footer">
+              <div class="row5">
+                <div class="col-4">
+                  <h4>Quick Links</h4>
+                  <a href="">About Us</a><br>
+                  <a href="">Entreprenures' Forum</a><br>
+                  <a href="">Market Place</a><br>
+                  <a href="">Resources</a><br>
+                </div>
+                <div class="col-4">
+                  <h4>Contact Us</h4>
+                  <p>+233 00 00 00 00 </p>
+                  <p>030 00 00 00 00</p>
+                  <p>+233 00 00 00 00</p>
+                </div>
+                <div class="col-4">
+                  <h4>Social Media</h4>
+                  <li>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-instagram"></i></a> 
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </div>
+              </div>
+              <div class="copyright"><p><i> Copyright@GrlsinCyberSecurityGH|powered by AITI-KACE</i></p></div>
+            </div>
+        <!-- Footer -->
+      </div>
+    <script src="JS/index.js"></script>
+   </div>
+  </body>
+</html>
