@@ -517,30 +517,29 @@ h3 {
   padding: 30px;
 }
 
-/* .gird-containeer a {
- width: 100%;
- height: 100%;
-border-radius: 5px;
+.grid-container div {
+  background-color: rgb(231, 221, 221);
+  padding: 5px;
+}
+
+/* .grid-container div a {
+ color: #0986b2;
 } */
 
 .grid-container img {
-  width: 100%;
-  height: 80%;
   border-radius: 10px;
   cursor: pointer;
   object-fit: cover;
-  object-position: center;
-  transition: 0.4s ease;
 }
 
-.grid-container img:hover {
-  transform: scale(110%);
+.news img:hover {
+  transform: scale(102%);
   filter: brightness(0.5);
+   transition: 0.4s ease;
 }
 
-.grid-container > div {
-  border-radius: 5px;
-  overflow: hidden;
+.news a {
+color: orangered !important;
 }
 
 .listings-body {
@@ -663,6 +662,13 @@ text-align: center;
   width: 500px;
 }
 
+.eventContent img:hover {
+  border-radius: 5px;
+  transform: scale(105%);
+  filter: brightness(0.5);
+  transition: 0.4s ease;
+}
+
 .symbol {
   display: flex;
 }
@@ -675,6 +681,7 @@ text-align: center;
   border-radius: 10px;
   color: orange;
   height: 30px;
+  margin-left: 250px;
 }
 
 .symbol .fa {
@@ -690,5 +697,31 @@ text-align: center;
 
 .Moc-body p {
   text-align: left;
+}
+/* end */
+
+/* Careers in ICT */
+.cards img:hover {
+    transform: none !important;
+  filter: 0;
+   transition: 0.3s;
+}
+
+.cards .card .btn {
+  background-image: linear-gradient(to right,green,  rgb(176, 194, 19));
+  color: rgb(255, 255, 255);
+}
+
+.cards .card h4, .card-text {
+text-align: left;
+margin-left: 0;
+}
+
+.cards .card .btn:hover {
+   background-image: linear-gradient(to right, rgb(176, 194, 19), green);
+}
+
+.card {
+  
 }
 /* end */
